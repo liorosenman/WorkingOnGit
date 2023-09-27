@@ -26,6 +26,8 @@ public class Basepage {
 	@FindBy(css = ".shopping_cart_badge")
 	private WebElement quantityBadge;
 	
+	public static int numOfProducts = 7;
+	
 	
 	public Basepage(WebDriver driver) {
 		this.driver = driver;
